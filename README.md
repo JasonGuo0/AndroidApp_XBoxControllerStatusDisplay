@@ -23,7 +23,7 @@ NOTE:
 In the official guide, you can use 
             
             InputDevice.MotionRange range = device.getMotionRange(MotionEvent.AXIS_X, event.getSource())
-to get the range of joystick positions, within which the position is regarded as zero. However, if you apply this to AXIS_BRAKE and AXIS_GAS, null will be return          (Should triggers don't consider the flat region) and skipping the code reading the trigger position.
+to get the threshold for non-zero joystick positions. However, if you apply this to AXIS_BRAKE and AXIS_GAS, null will be return (Shoulder triggers don't have thresholds) and skipping the code reading the trigger position.
 
 NOTE:
 
