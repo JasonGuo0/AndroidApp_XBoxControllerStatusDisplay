@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">XBoxController</string>
+    <string name="xBoxTextView">This is the initial look</string>
+</resources>
