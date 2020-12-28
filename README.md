@@ -1,6 +1,7 @@
 # AndroidApp_XBoxControllerStatusDisplay
 This project is an example of android application that display input events from an XBox controller.
 The controller is connected via Bluetooth. Displayed events include: pressing buttons and the direction pad, moving left and right joysticks, and pulling left and right shoulder triggers.
+
 Currently working on socket connection between the android app and a python server within LAN, so that the inputs from the controller can be transmitted to the server.
 
 The key layout is given in the official android developer guide at https://developer.android.com/training/game-controllers/controller-input
