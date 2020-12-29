@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">XBoxController</string>
     <string name="xBoxTextView">This is the initial look</string>
+    <string name="entryAddr">192.168.1.252</string>
+    <string name="entryPort">2000</string>
+    <string name="btnConnect">Connect</string>
 </resources>
