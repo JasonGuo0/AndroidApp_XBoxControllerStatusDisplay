@@ -23,6 +23,13 @@ The joystick and trigger positions are accessed using "float MotionEvent.getAxis
 
 NOTE:
 
+In order to use android's network features, the following lines must be included in the AndroidManifest.xml
+	
+	<uses-permission android:name="android.permission.INTERNET" />
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+NOTE:
+
 In the official guide, you can use 
             
             InputDevice.MotionRange range = device.getMotionRange(MotionEvent.AXIS_X, event.getSource())
